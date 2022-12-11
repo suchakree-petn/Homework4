@@ -16,13 +16,8 @@
             do
             {
                 target = FindPrevTarget(target).GetValue();
-                queue2.Push(target);
+                Console.WriteLine(target);
             } while (target != tree.Get(0));
-            int count = queue2.GetLength();
-            for (int i = 0; i < count; i++)
-            {
-                Console.WriteLine(queue2.Pop());
-            }
         }
         else
         {
