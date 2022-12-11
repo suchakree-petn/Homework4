@@ -46,7 +46,6 @@
             {
                 if (node.Next().GetValue() == name)
                 {
-                    //Console.WriteLine(tree.Get(i) + "?????");
                     return FindPrevTarget(tree.Get(i));
                 }
             }
