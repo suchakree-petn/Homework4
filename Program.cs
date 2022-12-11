@@ -9,7 +9,6 @@
         Input(parent, queue);
         TreeNode<string> popNode = null;
         pointing(queue, popNode);
-        Queue<string> queue2 = new Queue<string>();
         string target = Console.ReadLine();
         if (target != tree.Get(0))
         {
@@ -34,7 +33,6 @@
                 if (node.Child().GetValue() == name)
                 {
                     return tree.GetTreeNode(i);
-
                 }
             }
             if (node.Next() != null)
